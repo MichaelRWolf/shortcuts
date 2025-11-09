@@ -17,13 +17,13 @@ The original legend (`20250726T184111--keyboard-shortcut-keytops__shortcut.org`)
 3. `⌃` — Control
 4. `⌘` — Command
 
-Use Apple terminology (“Option”, “Control”, “Command”) instead of platform-specific aliases (see [Apple Human Interface Guidelines – Keyboard](https://developer.apple.com/design/human-interface-guidelines/inputs/keyboard/)).
+Use Apple terminology (“Option”, “Control”, “Command”) instead of platform-specific aliases (see [Apple Human Interface Guidelines – Keyboard](https://developer.apple.com/design/human-interface-guidelines/keyboards)).
 
 | Apple term | Non-standard references |
-| ---------- | ----------------------- |
-| Option     | Alt |
-| Control    | Ctrl |
-| Command    | Cmd, Apple |
+|------------|-------------------------|
+| Option     | Alt                     |
+| Control    | Ctrl                    |
+| Command    | Cmd, Apple              |
 
 Additional modifiers:
 

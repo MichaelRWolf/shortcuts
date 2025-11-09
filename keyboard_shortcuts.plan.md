@@ -1,3 +1,8 @@
+# Plan Mode Instructions
+
+1. Read this plan file.
+2. Execute the tasks and considerations listed below.
+
 # Shortcut Note Consolidation Plan
 
 ## Tasks
