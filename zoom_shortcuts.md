@@ -1,8 +1,6 @@
 # Zoom Keyboard Shortcuts
 
-- Source: `20250726T185310--zoom-keyboard-shortcuts__short_zoom.org`
-- Updated: `2025-07-26`
-- Tags: `shortcut`, `zoom`
+The original Org note (`20250726T185310--zoom-keyboard-shortcuts__short_zoom.org`) remains archived in `convert_org_to_md/`.
 
 ## See Also
 

@@ -1,8 +1,6 @@
 # Cursor Keyboard Shortcuts
 
-- Source: `20250726T184231--cursor-keyboard-shortcuts__shortcut.org`
-- Updated: `2025-07-26`
-- Tags: `shortcut`, `cursor`
+The original Org source (`20250726T184231--cursor-keyboard-shortcuts__shortcut.org`) and other project documents live under `convert_org_to_md/`.
 
 ## See Also
 

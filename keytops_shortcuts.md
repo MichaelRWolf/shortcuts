@@ -1,8 +1,6 @@
 # Keyboard Shortcut Keytops
 
-- Source: `20250726T184111--keyboard-shortcut-keytops__shortcut.org`
-- Updated: `2025-07-26`
-- Tags: `shortcut`, `keytops`
+Source material (`20250726T184111--keyboard-shortcut-keytops__shortcut.org`) is preserved under `convert_org_to_md/`.
 
 ## Legend
 
