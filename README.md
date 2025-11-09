@@ -36,7 +36,7 @@ This repository relies on [pre-commit](https://pre-commit.com/) to format Markdo
    pre-commit install
    ```
 
-After installation, the hook will align all GitHub-flavoured Markdown tables whenever you commit changes. If a table cannot be reformatted, the hook will fail loudly so you can address the issue before the commit completes.
+After installation, the hooks will align GitHub-flavoured Markdown tables and run `markdownlint --fix` on every staged Markdown file. If a file cannot be reformatted or linted, the hook will fail loudly so you can address the issue before the commit completes.
 
 ### Running Hooks Manually
 
@@ -54,4 +54,8 @@ You can invoke the hooks without creating a commit:
   pre-commit run --all-files
   ```
 
-Both commands apply the same formatting rules as the commit-time hook.
+Both commands apply the same formatting and linting rules as the commit-time hooks. To target just the Markdown linter, run:
+
+```bash
+pre-commit run markdownlint
+```

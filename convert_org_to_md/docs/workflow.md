@@ -43,4 +43,3 @@
 
 - Maintain a summary table of fidelity outcomes for future comparisons.
 - Keep original Org files untouched inside `original/` for auditing.
-

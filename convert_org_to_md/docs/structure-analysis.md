@@ -59,4 +59,3 @@ Refer to `keyboard_shortcut_keytops.md`.
 
 - Fix typos during translation (“Toggle”, “Participant”).
 - Resolve or document any `file:` links that remain unreachable.
-

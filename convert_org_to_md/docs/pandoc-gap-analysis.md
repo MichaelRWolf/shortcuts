@@ -52,4 +52,3 @@
 - Metadata requires `--standalone`; even then, custom handling is needed to map Org properties to the desired Markdown bullet list.
 - Denote-specific links (`denote:`) and filesystem `file:` links need manual remediation to become usable references.
 - Certain Org constructs (inline code blocks, sequential bare lines) lose formatting, so targeted cleanup is necessary after conversion.
-

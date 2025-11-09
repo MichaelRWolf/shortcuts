@@ -30,4 +30,3 @@
 - Simple Python script to diff section headers and row counts between `.org` and converted `.md`.
 - Unit tests (e.g., pytest) verifying normalized shortcut glyphs using regex patterns.
 - JSON summary per file capturing counts (`{"sections":3,"rows":25,"links":4}`) to track drift over iterations.
-

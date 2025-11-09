@@ -8,4 +8,11 @@ repos:
         types: [markdown]
         pass_filenames: true
         stages: [pre-commit]
+      - id: markdownlint
+        name: Markdownlint
+        entry: npx --yes markdownlint --fix
+        language: system
+        types: [markdown]
+        pass_filenames: true
+        stages: [pre-commit]
 
