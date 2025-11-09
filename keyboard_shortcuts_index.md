@@ -12,23 +12,56 @@ This page indexes every keyboard-shortcut note in the repository and tracks open
 
 The original legend (`20250726T184111--keyboard-shortcut-keytops__shortcut.org`) is archived under `convert_org_to_md/`.
 
-- `⌘` — Command (Cmd, Apple)
-- `⌃` — Control (Ctrl)
-- `⌥` — Option (Alt)
-- `⇧` — Shift
+1. `⇧` — Shift
+2. `⌥` — Option
+3. `⌃` — Control
+4. `⌘` — Command
+
+Use Apple terminology (“Option”, “Control”, “Command”) instead of platform-specific aliases (see [Apple Human Interface Guidelines – Keyboard](https://developer.apple.com/design/human-interface-guidelines/inputs/keyboard/)).
+
+| Apple term | Non-standard references |
+| ---------- | ----------------------- |
+| Option     | Alt |
+| Control    | Ctrl |
+| Command    | Cmd, Apple |
+
+Additional modifiers:
+
 - `⇪` — Caps Lock
 - `fn` — Function key modifier
 
 ### Common Modifier Sequences
 
-- `⌘`
-- `⌃`
-- `⌥`
-- `⌘⌃`
-- `⌘⌥`
-- `⇧`
-- `⇪`
-- `fn` + `F1`
+Copy these sequences to make documentation elsewhere easier:
+
+```text
+Singles:
+⇧
+⌥
+⌃
+⌘
+
+Command pairs:
+⌃⌘
+⌥⌘
+⇧⌘
+
+Command triples:
+⌃⌥⌘
+⌃⇧⌘
+⌥⇧⌘
+
+Command quadruple:
+⌃⌥⇧⌘
+
+Non-command pairs:
+⌃⌥
+⌃⇧
+⌥⇧
+
+Non-command triple:
+⌃⌥⇧
+```
 
 ### Starter Template
 
@@ -44,4 +77,3 @@ See also: [Keyboard Shortcut Index](keyboard_shortcuts_index.md)
 - Legacy org-roam/logseq references: `~/org-roam-logseq-nodes-MichaelRWolf/pages/*shortcut*` and related pages.
 
 > TODO: repair info lost in org->md translation - replace legacy org-roam links with accessible references
-
