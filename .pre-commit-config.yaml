@@ -1,0 +1,11 @@
+repos:
+  - repo: local
+    hooks:
+      - id: format-markdown-tables
+        name: Format Markdown tables
+        entry: npx --yes markdown-table-formatter
+        language: system
+        types: [markdown]
+        pass_filenames: true
+        stages: [pre-commit]
+
