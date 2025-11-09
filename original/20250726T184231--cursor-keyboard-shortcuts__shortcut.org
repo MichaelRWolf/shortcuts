@@ -1,0 +1,92 @@
+#+title:      Cursor Keyboard Shortcuts
+#+date:       [2025-07-26 Sat 18:42]
+#+filetags:   :shortcut:
+#+identifier: 20250726T184231
+
+
+See Also
+- [[denote:20250726T184111][Keyboard Shortcut Keytops]]
+
+
+|------------------------------+--------------------+------------|
+| Cursor-specific command      | Keystrokes         | Mnenonic   |
+|------------------------------+--------------------+------------|
+| AI Chat                      | ⌘ + K              |            |
+| AI Edit                      | ⌘ + L              |            |
+| Generate Code                | ⌘ + I              |            |
+| Explain Code                 | ⌘ + Shift + I      |            |
+| Fix Code                     | ⌘ + Shift + L      |            |
+| Chat with Selection          | ⌘ + Shift + K      |            |
+|------------------------------+--------------------+------------|
+|                              |                    |            |
+|------------------------------+--------------------+------------|
+| VS Code shared command       |                    |            |
+|------------------------------+--------------------+------------|
+| Toggle Side Bar              | ⌘ + B              | Bar        |
+| Focus Explorer               | ⌘ + Shift + E      | Explorer   |
+| Focus Git/Source Control     | ⌘ + Shift + G      | Git        |
+| Focus Search                 | ⌘ + Shift + F      | Find       |
+| Focus Extensions             | ⌘ + Shift + X      | eXtensions |
+| Toggle Terminal              | ⌘ + `              |            |
+| Toggle Side Bar Position     | ⌘ + Shift + B      |            |
+| Toggle Output                | ⌘ + Shift + M      |            |
+| Show Problems                | ⌘ + Shift + U      |            |
+| Toggle Debug Console         | ⌘ + Shift + Y      |            |
+|                              |                    |            |
+|------------------------------+--------------------+------------|
+| Quick Open                   | ⌘ + P              |            |
+| Command Palette              | ⌘ + Shift + P      | Palette    |
+|------------------------------+--------------------+------------|
+| Go to Definition             | F12                |            |
+| Peek Definition              | Option + F12       |            |
+| Rename Symbol                | F2                 |            |
+|------------------------------+--------------------+------------|
+| Format Document              | Shift + Option + F |            |
+| Toggle Comment               | ⌘ + /              |            |
+|------------------------------+--------------------+------------|
+| Delete Line                  | Shift + ⌘ + K      |            |
+| Insert Line Above            | Shift + ⌘ + Enter  |            |
+| Insert Line Below            | ⌘ + Enter          |            |
+|------------------------------+--------------------+------------|
+| Split Editor                 | ⌘ + \              |            |
+| Close Editor Group           | ⌘ + Shift + W      |            |
+| Switch Between Editor Groups | ⌘ + 1, 2, 3...     |            |
+|------------------------------+--------------------+------------|
+| Toggle Breakpoint            | F9                 |            |
+| Start Debugging              | F5                 |            |
+| Stop Debugging               | Shift + F5         |            |
+| Step Over                    | F10                |            |
+| Step Into                    | F11                |            |
+| Step Out                     | Shift + F11        |            |
+|------------------------------+--------------------+------------|
+| Save                         | ⌘ + S              |            |
+| Save All                     | ⌘ + Option + S     |            |
+| Close Editor                 | ⌘ + W              |            |
+| Close Window                 | ⌘ + Shift + W      |            |
+| New File                     | ⌘ + N              |            |
+| Open File                    | ⌘ + O              |            |
+| Find                         | ⌘ + F              |            |
+| Find in Files                | ⌘ + Shift + F      |            |
+| Replace                      | ⌘ + Option + F     |            |
+| Go to Line                   | ⌘ + G              |            |
+| Go to Symbol                 | ⌘ + Shift + O      |            |
+| Multi-cursor                 | Option + Click     |            |
+| Add Cursor Above             | ⌘ + Option + ↑     |            |
+| Add Cursor Below             | ⌘ + Option + ↓     |            |
+| Select All Occurrences       | ⌘ + Shift + L      |            |
+| Undo                         | ⌘ + Z              |            |
+| Redo                         | ⌘ + Shift + Z      |            |
+| Cut                          | ⌘ + X              |            |
+| Copy                         | ⌘ + C              |            |
+| Paste                        | ⌘ + V              |            |
+| Select All                   | ⌘ + A              |            |
+| Duplicate Line               | Shift + Option + ↓ |            |
+| Move Line Up                 | Option + ↑         |            |
+| Move Line Down               | Option + ↓         |            |
+| Toggle Word Wrap             | Option + Z         |            |
+| Zoom In                      | ⌘ + =              |            |
+| Zoom Out                     | ⌘ + -              |            |
+| Reset Zoom                   | ⌘ + 0              |            |
+|------------------------------+--------------------+------------|
+
+

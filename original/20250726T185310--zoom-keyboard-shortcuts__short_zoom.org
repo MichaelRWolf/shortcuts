@@ -1,0 +1,24 @@
+#+title:      Zoom Keyboard Shortcuts
+#+date:       [2025-07-26 Sat 18:53]
+#+filetags:   :short:zoom:
+#+identifier: 20250726T185310
+
+
+See also:
+- [[denote:20250726T184111][Keyboard Shortcut Keytops]]
+
+
+|---------------------------------------+--------------------------------|
+| Action                                | Keyboard                       |
+|---------------------------------------+--------------------------------|
+| Audio (un)mute                        | Command + Shift + A            |
+| Video (un)display                     | Command + Shift + V            |
+| Tobble speaker/gallery                | Command + Shift + W            |
+| Next (Previous) 25 participante       | Ctl + N (Ctl + P)              |
+|                                       |                                |
+| Jump to Chat                          | Command + K                    |
+| Toggle "Always Show Meeting Controls" | Control + \                    |
+| Floating meeting controls             | Control + Option + Command + H |
+| Toggle Chat Panel                     | Command + Shift +  H           |
+| Participants panel                    | Command + V                    |
+|---------------------------------------+--------------------------------|

@@ -1,0 +1,55 @@
+# Pandoc Gap Analysis (Org → Markdown)
+
+- **Denote metadata (`#+title`, `#+date`, `#+filetags`, `#+identifier`)**
+  - Where: all notes.
+  - Behavior: omitted unless `--standalone`; no YAML front matter generated.
+  - Gap: lose title/date context and tags.
+  - Mitigation: use `--standalone`, then map metadata into bullet list manually.
+- **`See Also` sections with Denote links (`[[denote:...]]`)**
+  - Where: Cursor, Zoom, Keytops, Many-apps notes.
+  - Behavior: renders as Markdown links retaining `denote:` scheme.
+  - Gap: links unusable outside Denote.
+  - Mitigation: convert to repo-relative Markdown links or leave as plain-text references.
+- **Org tables with spacer rows / embedded section headers**
+  - Where: `20250726T184231`, `20250726T185310`.
+  - Behavior: single table with blank spacer rows; section headers remain inline.
+  - Gap: requires manual restructuring into separate sections.
+  - Mitigation: split tables post-conversion and insert Markdown subheadings, remove spacer rows.
+- **Multi-value shortcuts (`Next (Previous) 25 participant...)`**
+  - Where: Zoom note.
+  - Behavior: pandoc keeps text in single cell with parentheses.
+  - Gap: needs separation into individual rows and glyph normalization.
+  - Mitigation: post-process to split entries and apply standardized glyph order with `OR`.
+- **Modifier glyph legend bullet list**
+  - Where: Keytops note.
+  - Behavior: headings retained but sequences collapse into one paragraph.
+  - Gap: readability loss, list semantics lost.
+  - Mitigation: add explicit blank lines or rewrite as Markdown list manually.
+- **Embedded Markdown code block (fenced)**
+  - Where: Keytops note.
+  - Behavior: backticks escaped; block rendered inline.
+  - Gap: code sample formatting broken.
+  - Mitigation: rewrite section as fenced code block after conversion.
+- **`file:` links to external filesystem**
+  - Where: Many-apps note.
+  - Behavior: becomes Markdown link targeting literal path (e.g., `(~/org-roam-...)`).
+  - Gap: stale/unresolved references.
+  - Mitigation: replace with explanatory text or mark as legacy reference.
+- **Plain-text modifiers (`Command + Shift + A`)**
+  - Where: Zoom note.
+  - Behavior: unchanged; no glyph normalization.
+  - Gap: violates target table standard.
+  - Mitigation: normalize to glyph order manually or via script.
+- **Empty placeholder file (`20250726T183423...`)**
+  - Where: Cursor stub.
+  - Behavior: outputs nothing.
+  - Gap: none, but indicates need to consolidate with main Cursor doc.
+  - Mitigation: merge content manually or drop once consolidated.
+
+## Summary
+
+- Pandoc handles basic tables and headings but does not automatically restructure complex table layouts or normalize shortcut glyphs.
+- Metadata requires `--standalone`; even then, custom handling is needed to map Org properties to the desired Markdown bullet list.
+- Denote-specific links (`denote:`) and filesystem `file:` links need manual remediation to become usable references.
+- Certain Org constructs (inline code blocks, sequential bare lines) lose formatting, so targeted cleanup is necessary after conversion.
+

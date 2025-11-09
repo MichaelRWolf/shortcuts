@@ -1,0 +1,19 @@
+#+title:      Keyboard Shortcuts - Many Applications
+#+date:       [2025-07-26 Sat 18:44]
+#+filetags:   :shortcut:
+#+identifier: 20250726T184428
+
+See also: [[denote:20250726T184111][Keyboard Shortcut Keytops]]
+
+** By Tool
+- [[denote:20250726T184231][Cursor Keyboard Shortcuts]]
+- [[denote:20250726T185310][Zoom Keyboard Shortcuts]]
+- org-roam-logseq from emacs
+  - [[file:~/org-roam-logseq-nodes-MichaelRWolf/pages/*shortcut*]]
+  - [[file:~/org-roam-logseq-nodes-MichaelRWolf/pages/]]
+
+** By Web Application
+
+** By Operating System
+
+

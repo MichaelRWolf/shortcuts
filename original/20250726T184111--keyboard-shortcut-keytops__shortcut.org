@@ -1,0 +1,30 @@
+#+title:      Keyboard Shortcut Keytops
+#+date:       [2025-07-26 Sat 18:41]
+#+filetags:   :shortcut:
+#+identifier: 20250726T184111
+
+** Legend
+⌘ is the Command or Cmd () key.
+⌃ is the Control or Ctrl key.
+⌥ is the Option or Alt key.
+⇧ is the Shift key.
+⇪ is the Caps Lock key.
+fn is the Function key.
+
+** Common modifier sequences
+⌘ + 
+⌃ + 
+⌥ + 
+⌘ + ⌃ +
+⌘ + ⌥ +
+⇧
+⇪
+fn + F1
+
+** Starter for new file
+
+Filename: 'TOOL-NAME Keyboard Shortcuts'
+
+```markdown
+See also: [[denote:20250726T184111][Keyboard Shortcut Keytops]]
+```
