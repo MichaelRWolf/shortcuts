@@ -108,9 +108,9 @@ The original Org source (`20250726T184231--cursor-keyboard-shortcuts__shortcut.o
 ## View
 
 | Shortcut | Shortcut (Text) | Action           | Notes |
-|----------|----------------:|:-----------------|:------|
-| ⌥Z       |        Option-Z | Toggle Word Wrap |       |
-| ⌘=       |  Command-Equals | Zoom In          |       |
-| ⌘-       |   Command-Minus | Zoom Out         |       |
-| ⌘0       |       Command-0 | Reset Zoom       |       |
+|---------:|----------------:|:-----------------|:------|
+|       ⌥Z |        Option-Z | Toggle Word Wrap |       |
+|       ⌘= |  Command-Equals | Zoom In          |       |
+|       ⌘- |   Command-Minus | Zoom Out         |       |
+|       ⌘0 |       Command-0 | Reset Zoom       |       |
 
