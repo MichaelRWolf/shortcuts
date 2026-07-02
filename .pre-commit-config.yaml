@@ -1,18 +1,36 @@
 repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-added-large-files
+        args: ["--maxkb=102400"] # 100MB
+
   - repo: local
     hooks:
-      - id: format-markdown-tables
-        name: Format Markdown tables
-        entry: npx --yes markdown-table-formatter
+      - id: markdown-table-formatter
+        name: markdown-table-formatter (align columns)
+        entry: npx markdown-table-formatter
         language: system
         types: [markdown]
-        pass_filenames: true
-        stages: [pre-commit]
-      - id: markdownlint
-        name: Markdownlint
-        entry: npx --yes markdownlint --fix
-        language: system
-        types: [markdown]
-        pass_filenames: true
-        stages: [pre-commit]
 
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.49.0
+    hooks:
+      - id: markdownlint-fix
+
+  - repo: https://github.com/sirosen/texthooks
+    rev: 0.7.1
+    hooks:
+      - id: fix-ligatures
+        types: [markdown]
+      - id: fix-smartquotes
+        types: [markdown]
+      - id: fix-unicode-dashes
+        types: [markdown]
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: pretty-format-json
+        args: ["--autofix"]
+        files: '(^|/)\.markdownlint\.json$'
